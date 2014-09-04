@@ -1,0 +1,49 @@
+table{
+  border-spacing:0px;
+}
+
+td{
+  width:50px;
+  height:50px;
+}
+
+td:first-child{
+  background-color: hsl(0, 41%, 0%);
+}
+
+td:nth-child(2){
+  background-color: hsl(0, 41%, 11%);
+}
+
+td:nth-child(3){
+  background-color: hsl(0, 41%, 22%);
+}
+
+td:nth-child(4){
+  background-color: hsl(0, 41%, 33%);
+}
+
+td:nth-child(5){
+  background-color: hsl(0, 41%, 44%);
+}
+
+td:nth-child(6){
+  background-color: hsl(0, 41%, 55%);
+}
+
+td:nth-child(7){
+  background-color: hsl(0, 41%, 66%);
+}
+
+td:nth-child(8){
+  background-color: hsl(0, 41%, 77%);
+}
+
+td:nth-child(9){
+  background-color: hsl(0, 41%, 88%);
+}
+
+td:last-child{
+  background-color: hsl(0, 41%, 99%);
+}
+
