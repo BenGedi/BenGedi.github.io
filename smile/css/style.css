@@ -1,0 +1,26 @@
+table{
+	background: black;
+	border-collapse:collapse;
+}
+td{
+	width:30px;
+	height: 30px;
+}
+
+.brow , tr:nth-child(2) td:nth-child(5n+3),tr:nth-child(2) td:nth-child(5n+4){
+	background-color: #C0C0C0;
+}
+
+tr:nth-child(4) td:not([data-not-eye]){
+	background-color: blue;
+}
+
+tr:nth-child(5) td:empty,tr:nth-child(6) td:empty{
+	background-color: #FF00FF;
+}
+tr:nth-child(7) td[data-foo$="baz"]{
+	background-color: #FF00FF;
+}
+tr:nth-child(7) td[data-foo="smilebar"],tr:nth-child(8) td:nth-child(3),tr:nth-child(8) td:nth-child(8),tr:nth-child(9) td:not(:empty) {
+	background-color: red;
+}
