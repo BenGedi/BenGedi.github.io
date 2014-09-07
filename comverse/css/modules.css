@@ -1,0 +1,43 @@
+/*****modules css page*/
+h1[titles="mainTitle"],h3[titles="moduleTitle"],h4[titles="itemTitle"]{
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color: hsl(240,0%,49%);
+	font-weight: bold;
+	border-bottom: 1px solid hsl(240,0%,49%);
+}
+
+h1[titles="mainTitle"]{
+	text-align: center;
+	font-style: oblique;
+}
+/*Ends of modules css page*/
+
+/*Comverse modules*/
+
+a:link,a:visited{
+	text-decoration: none;
+	color:inherit;
+}
+a:hover, a:focus, a:active{
+color: #3399CC;	
+}
+
+/*list*/
+ul[list="navigation"] li{
+	float: left;
+	list-style-type: none;
+	font: 13px Arial;
+	color:#585951;
+	border-left: 1px solid #d0d0d0;
+	padding: 0 10px;
+}
+ul[list="navigation"] li:first-child{
+	border-left:none;
+}
+li > select{
+	border: none;
+	width: 42px;
+	color: inherit;
+	line-height: 42px;
+}
+
