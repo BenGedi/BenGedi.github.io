@@ -5,7 +5,7 @@
 	<title>css-modules</title>
 	<link rel="stylesheet" href="css/modules.css">
 </head>
-<body>
+<body class="modules-css-style">
 	<h1 titles="mainTitle">Css Modules</h1>
 	<div>
 	<!-- Brand -->
@@ -38,7 +38,7 @@
 			<h5 titles="itemTitle">user access</h5>
 			<!-- module -->
 			<nav class="user-access">
-				<ul list="navigation">
+				<ul list="navigation row">
 					<li>
 						<select name="lang" id="langChanger">
 							<option value="en">EN</option>
@@ -53,7 +53,7 @@
 			<h5 titles="itemTitle">main navigation</h5>
 			<!-- module -->
 			<nav class="main-nav">
-				<ul list="navigation">
+				<ul list="navigation row">
 					<li><a link="navigation" href="#">YOUR NEEDS</a></li>
 					<li><a link="navigation" href="#">OUR PROTFOLIO</a></li>
 					<li><a link="navigation" href="#">NEWS & MEDIA</a></li>
@@ -76,7 +76,7 @@
 		<!--*****************-->
 		<h3 titles="moduleTitle">Boxs</h3>
 		<div class="content">
-			<h5 titles="itemTitle">carousel box</h5>
+			<h5 titles="itemTitle">color box</h5>
 			<ul color-boxs>
 				<li color-box="pink">
 					<a link="box" href="#">
@@ -88,12 +88,29 @@
 					</a>
 				</li>
 			</ul>
-			<div >
-				
-					
-			</div>
 
+			<h5 titles="itemTitle">event box</h5>
+				<a event-box itemscope itemtype="http://schema.org/Event" href="#">
+					<div event-date itemprop="startDate" content="2015-08-29">
+						<p event-day>29</p>
+						<p event-month>AUG</p>
+					</div>
+					<p itemprop="name" event-info>Creating a Compeling Carrier Comeback Solution</p>
+				</a>
+
+				<h5 titles="itemTitle">solution box</h5>
+				<ul list="solution">
+					<lu>
+						<figure>
+							<img src="" alt="">
+							<figcaption></figcaption>
+						</figure>
+					</lu>
+				</ul>
 		</div>
+		
+				
+	
 	</div>
 </body>
 </html>
