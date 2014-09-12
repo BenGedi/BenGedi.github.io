@@ -1,6 +1,8 @@
 @font-face {
-    font-family: "Myriad Pro Regular";
-    src: url(.../font/myriadpro-regular.ttf) format("truetype");
+  font-family: "Agilita";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/agilita.eot?#iefix") format("embedded-opentype"), url("../fonts/agilita.woff") format("woff"), url("../fonts/agilita.ttf") format("truetype"), url("../fonts/agilita.svg#formatalight") format("svg");
 }
 /*-----= modules css page =------*/
 .comverse-style-guide{
@@ -25,7 +27,7 @@ h1[titles="mainTitle"]{
 
 /*------= COMVERSE MODULES =---------*/
 html{
-	font-family: "Myriad Pro Regular", CenturyGothic, AppleGothic, sans-serif;
+	font-family: "Agilita";
 }
 
 /*------= Headings =-------*/
@@ -44,7 +46,7 @@ h1[heading="section"]{
 }
 [heading="section"],[heading="carousel"],[heading="box"]{
 color: hsla(0, 0%, 100%, 1);
-font: 2.5em/30px "Myriad Pro Regular", CenturyGothic, AppleGothic, sans-serif;;
+font: 2.5em/30px "Agilita";
 }
 h2[heading="carousel"] em{
 	font-style: normal;
@@ -235,14 +237,14 @@ ul[list="footer"] li{
 [event-day]{
 	margin: 0;
 	color: hsla(0, 0%, 100%, 1);
-	font: 3em/65px "Myriad Pro Regular", CenturyGothic, AppleGothic, sans-serif;
+	font: 3em/65px "Agilita";
 	height: 65px;
 	border-bottom: 1px dotted hsla(0, 0%, 100%, 1);
 }
 [event-month]{
 	margin: 0;
 	color: hsla(0, 0%, 100%, 1);
-	font: 1em/33px "Myriad Pro Regular", CenturyGothic, AppleGothic, sans-serif;
+	font: 1em/33px "Agilita";
 	height: 33px;
 	text-transform: uppercase;
 }
@@ -250,7 +252,7 @@ ul[list="footer"] li{
 	margin: 0;
 	overflow: hidden;
 	color: hsla(0, 0%, 10%, 1);
-	font: 1em "Myriad Pro Regular", CenturyGothic, AppleGothic, sans-serif;
+	font: 1em "Agilita";
 }
 [box~="solution"]{
 	width: 160px;
@@ -275,7 +277,7 @@ ul[list="footer"] li{
 }
 [box~="solution"] figure figcaption{
 	text-align: center;
-	font-size: 14px;
+	font-size: 1.6em/20px Agilita;
 }
 [box~="solution"] figure img{
 	display: block;
@@ -283,4 +285,87 @@ ul[list="footer"] li{
     margin-right: auto;
 	vertical-align: bottom;
 	max-height: 100%;
+}
+/*[list~="success-story"]{
+	max-width: 69em;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 352px;
+	height: 323px !important;
+}
+[box="warp-slider"]{
+	width: 341px;
+	height: 210px;
+	margin: 0 auto;
+	background-color: white;
+}
+[box="small"]{
+	display: block;
+	float: left;
+	width: 107px;
+	height: 94px;
+	margin: 5px;
+	overflow: hidden;
+	background-color: white;
+	
+	position: relative !important;
+	left: auto !important;
+	top: auto !important;
+}*/
+
+[list~="success-story"]{
+	float: left;
+	max-width: 69em;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 352px;
+	height: 323px !important;
+}
+[list~="success-story"] [box="warp-slider"]{
+	width: 341px;
+	height: 210px;
+	display: block;
+}
+[list~="success-story"] li{
+	display: block;
+	float: left;
+	width: 107px;
+	height: 94px;
+	margin: 5px;
+	overflow: hidden;
+	background-color: white;
+	position: relative !important;
+	left: auto !important;
+	top: auto !important;
+}
+
+[box="warp-slider"] [front]{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+	height: 170px;
+	background-color: white;
+	width: 302px;
+	padding: 20px;
+}
+[list~="success-story"] a [up]{
+	height: 130px;
+	border-bottom: 1px #DDDDDD solid;
+}
+blockquote{
+	margin: 0;
+	color: black;
+	width: 195px;
+	height: 112px;
+	overflow: hidden;
+	float: right;
+}
+span[quote="grey"]{
+	width: 27px;
+	height: 20px;
+	background-image: url("../img/quote-grey.png") no-repeat 0 0;
+	text-indent: 35px;
 }
