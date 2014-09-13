@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Comverse Style Guide</title>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/modules.css">
 </head>
 <body class="comverse-style-guide">
@@ -75,6 +76,11 @@
 	</div>
 	<!-- Boxs -->
 	<h3 titles="moduleTitle">Boxs</h3>
+	<h5 titles="itemTitle">search box</h5>
+	<div box="search">
+		<input type="search"><button type="submit"><i class="fa fa-search"></i></button>
+	</div>
+
 	<h5 titles="itemTitle">color box</h5>
 	<div class="content">	
 		<!-- color box -->	
@@ -140,14 +146,26 @@
 	<h5 titles="itemTitle">success box 1/3</h5>
 	<div class="content">
 		<ul list="success-story">
-			<li box="warp-slider">
+			<li box="wrap-slider">
 				<a link="box" href="#">
-					<div front>
+					<div back-success-story>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div front-success-story>
 						<div up>
 							<img src="img/CB-JP-face.png" alt="CB-JP-face">
-							<blockquote><span quote="grey"></span>
-								BTC, a full-service provider in the Bahamas, depends on Comverse solut…<span quote="grey"></span>
+							<blockquote>
+								BTC, a full-service provider in the Bahamas, depends on Comverse solut…
 							</blockquote>
+						</div>
+						<div down>
+							<div person-info>
+								<cite person-name>Jonathan Pierce</cite>
+								<p office-name>Group Mobile Architect</p>
+							</div>
+							<img src="img/cable_wireless_w100px_X_h42px2.jpg" alt="Group Mobile Architect">
 						</div>
 					</div>
 				</a>
@@ -155,6 +173,52 @@
 			<li box="small"><a href="#"><img src="img/mts_w108px_X_h95px.jpg" alt=""></a></li>
 			<li box="small"><a href="#"><img src="img/Tata_Sky_w108px_X_h95px.jpg" alt=""></a></li>
 			<li box="small"><a href="#"><img src="img/upc_w108px_X_h95px.jpg" alt=""></a></li>
+		</ul>
+		<ul list="success-story">
+			<li box="small"><a href="#"><img src="img/mts_w108px_X_h95px.jpg" alt=""></a></li>
+			<li box="small"><a href="#"><img src="img/Tata_Sky_w108px_X_h95px.jpg" alt=""></a></li>
+			<li box="small"><a href="#"><img src="img/upc_w108px_X_h95px.jpg" alt=""></a></li>
+			<li box="wrap-slider">
+				<a link="box" href="#">
+					<div front-success-story>
+						<div up>
+							<img src="img/CB-JP-face.png" alt="CB-JP-face">
+							<blockquote>
+								BTC, a full-service provider in the Bahamas, depends on Comverse solut…
+							</blockquote>
+						</div>
+						<div down>
+							<div person-info>
+								<cite person-name>Jonathan Pierce</cite>
+								<p office-name>Group Mobile Architect</p>
+							</div>
+							<img src="img/cable_wireless_w100px_X_h42px2.jpg" alt="Group Mobile Architect">
+						</div>
+					</div>
+				</a>
+			</li>
+		</ul>
+		<ul list="success-story quote">
+			<li box="wrap-slider quote">
+				<a link="box" href="#">
+					<div front-success-story="quote">
+						<div up>
+							<blockquote>
+								Comverse has demonstrated that they are partners, not just suppliers
+							</blockquote>
+						</div>
+						<div down>
+							<div person-info>
+								<cite person-name>Adale Kehassan</cite>
+								<p office-name>CIO</p>
+							</div>
+							<img src="img/multilinks.jpg" alt="multilinks">
+						</div>
+					</div>
+				</a>
+			</li>
+			<li box="small"><a href="#"><img src="img/mts_w108px_X_h95px.jpg" alt=""></a></li>
+			<li box="small"><a href="#"><img src="img/Tata_Sky_w108px_X_h95px.jpg" alt=""></a></li>
 		</ul>
 	</div>
 </body>
