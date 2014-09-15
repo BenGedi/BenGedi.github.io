@@ -56,7 +56,7 @@ body{
 }
 
 header{
-	margin: 0 auto;
+	height: 90px;
 }
 
 /*------= Headings =-------*/
@@ -484,6 +484,7 @@ blockquote{
 [back-success-story] blockquote{
 	margin: 0;
 	display: inline-block;
+	color: white;
 	width: 75%;
 }
 [front-success-story="quote"] [up] blockquote{
