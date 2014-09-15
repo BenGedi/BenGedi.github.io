@@ -1,10 +1,9 @@
 @font-face {
-  font-family: "Agilita";
+  font-family: "Segan-Light";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/agilita.eot?#iefix") format("embedded-opentype"), url("../fonts/agilita.woff") format("woff"), url("../fonts/agilita.ttf") format("truetype"), url("../fonts/agilita.svg#formatalight") format("svg");
+  src: url("../fonts/Segan-Light.ttf") format("truetype");
 }
-
 
 /*-----= modules css page =------*/
 .comverse-style-guide{
@@ -36,7 +35,7 @@ h1[titles="mainTitle"]{
 
 /*------= COMVERSE MODULES =---------*/
 html{
-	font-family: "Agilita";
+	font-family: "Segan-Light";
 }
 body{
 	position: relative;
@@ -75,7 +74,7 @@ h1[heading="section"]{
 }
 [heading="section"],h2[heading="carousel"],[heading="box"]{
 	color: hsla(0, 0%, 100%, 1);
-	font: 2.5em/30px "Agilita";
+	font: 2.5em/30px "Segan-Light";
 	margin: 0 auto;
 }
 /*-----------------------*/
@@ -355,14 +354,14 @@ ul[list~="feature-boxs"] li:first-child{
 [event-day]{
 	margin: 0;
 	color: hsla(0, 0%, 100%, 1);
-	font: 3em/65px "Agilita";
+	font: 3em/65px "Segan-Light";
 	height: 65px;
 	border-bottom: 1px dotted hsla(0, 0%, 100%, 1);
 }
 [event-month]{
 	margin: 0;
 	color: hsla(0, 0%, 100%, 1);
-	font: 1em/33px "Agilita";
+	font: 1em/33px "Segan-Light";
 	height: 33px;
 	text-transform: uppercase;
 }
@@ -370,7 +369,7 @@ ul[list~="feature-boxs"] li:first-child{
 	margin: 0;
 	overflow: hidden;
 	color: hsla(0, 0%, 10%, 1);
-	font: 1em "Agilita";
+	font: 1em "Segan-Light";
 }
 [box~="solution"]{
 	width: 160px;
@@ -399,7 +398,7 @@ li[box~="solution"]+a[link="box"]{
 }
 [box~="solution"] figure figcaption{
 	text-align: center;
-	font-size: 1.6em/20px Agilita;
+	font-size: 1.6em/20px Segan-Light;
 	color: white;
 }
 [box~="solution"] figure figcaption:hover{
@@ -485,7 +484,8 @@ blockquote{
 	margin: 0;
 	display: inline-block;
 	color: white;
-	width: 75%;
+	font-size: 120%;
+	width: 85%;
 }
 [front-success-story="quote"] [up] blockquote{
 	float: none;
