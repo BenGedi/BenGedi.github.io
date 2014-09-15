@@ -11,19 +11,19 @@
 	<!-= Brand =->
 	<h3 titles="moduleTitle">Brand</h3>
 	<h5 titles="itemTitle">logo</h5>
-	<div class="content">
+	<div class="content" clearfix>
 		<img src="img/comverse-logo.png" alt="Comverse">
 	</div>	
 	<!-= Heading =->
 	<h3 titles="moduleTitle">Headings</h3>
 	<h5 titles="itemTitle">carousel header</h5>
-	<div class="content">
+	<div class="content" clearfix>
 		<!--carousel header-->
 			<h2 heading="carousel"><em>Free</em> Your Market From It <em>Complexity</em></h2>
 		<!--*****end:carousel header******-->
 		</div>
 	<h5 titles="itemTitle">section header</h5>
-	<div class="content">
+	<div class="content" clearfix>
 		<!-- section header -->
 			<h1 heading="section">Heading</h1>
 		<!--*****end:section header******-->
@@ -32,7 +32,7 @@
 	<!--user access-->
 	<h3 titles="moduleTitle">Lists</h3>
 	<h5 titles="itemTitle">user access</h5>
-	<div class="content">
+	<div class="content" clearfix>
 		<!--user access-->
 		<nav user-access-nav>
 			<ul list="navigation row">
@@ -48,7 +48,7 @@
 		<!--*****end:user access******-->
 	</div>
 	<h5 titles="itemTitle">main navigation</h5>
-	<div class="content">
+	<div class="content" clearfix>
 		<!-- main navigation -->
 		<nav main-nav>
 				<ul list="navigation row">
@@ -61,7 +61,7 @@
 		<!--*****end:main navigation******-->	
 	</div>
 	<h5 titles="itemTitle">footer list</h5>
-	<div class="content">
+	<div class="content" clearfix>
 		<!-- footer list -->
 		<footer>
 			<h2 heading="footer-list">Numbers</h2>
@@ -74,51 +74,66 @@
 		</footer>
 		<!--****end:footer list****-->
 	</div>
+	<h5 titles="itemTitle">carousel indicators</h5>
+	<div class="content" clearfix>
+		<!-- carouselIndicators list -->
+		<ol list="carouselIndicators row">
+			<li active>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		</ol>
+		<!--****end:carouselIndicators list****-->
+	</div>
 	<!-- Boxs -->
 	<h3 titles="moduleTitle">Boxs</h3>
 	<h5 titles="itemTitle">search box</h5>
-	<div class="content">
+	<div class="content" clearfix>
 		<!-- search box -->
 		<form box="search" action="">
 			<input type="search"><button type="submit"><i class="fa fa-search"></i></button>
 		</form>
-		<!--****end:color-box****-->
+		<!--****end:search-box****-->
 	</div>
 	<h5 titles="itemTitle">blue button</h5>
-	<div class="content">
-		
-			<a link="btnBlue" href="#">
-				<span>Learn More</span>
-			</a>
-		
+	<div class="content" clearfix>
+		<!-- blue button -->
+		<a link="btnBlue" href="#">
+			<span>Learn More</span>
+		</a>
+		<!--****end:blue button****-->
 	</div>
-	<h5 titles="itemTitle">color box</h5>
-	<div class="content">	
-		<!-- color box -->	
-		<ul color-boxs>
-			<li color-box="pink">
+	<h5 titles="itemTitle">feature box</h5>
+	<div class="content" clearfix>	
+		<!-- feature box -->	
+		<ul list="feature-boxs row">
+			<li feature-box="pink">
 				<a link="box" href="#">
-					<h3 heading="box">Comverse Is Value-Added Service Global Market Leader.</h3>
-					<p footer="color-box">
-						<img src="img/box-link.png" alt="link">
-						<span>Read more</span>
-					</p>
+					<article>
+						<h3 heading="box">Comverse Is Value-Added Service Global Market Leader.</h3>
+						<footer>
+							<img src="img/box-link.png" alt="link">
+							<span>Read more</span>
+						</footer>
+					</article>
 				</a>
 			</li>
-			<li color-box="green">
+			<li feature-box="green">
 				<a link="box" href="#">
-					<h3 heading="box">Comverse Is Value-Added Service Global Market Leader.</h3>
-					<p footer="color-box">
-						<img src="img/box-link.png" alt="link">
-						<span>Read more</span>
-					</p>
+					<article>
+						<h3 heading="box">Comverse Is Value-Added Service Global Market Leader.</h3>
+						<footer>
+							<img src="img/box-link.png" alt="link">
+							<span>Read more</span>
+						</footer>
+					</article>
 				</a>
 			</li>
 		</ul>
-		<!--****end:color-box****-->
+		<!--****end:feature box****-->
 	</div>
 	<h5 titles="itemTitle">event box</h5>
-	<div class="content">
+	<div class="content" clearfix>
 		<!-- event-box -->
 		<a event-box itemscope itemtype="http://schema.org/Event" href="#">
 			<div event-date itemprop="startDate" content="2015-08-29">
@@ -130,7 +145,7 @@
 		<!--****end:evnet-box****-->
 	</div>
 	<h5 titles="itemTitle">solution box</h5>
-	<div class="content">
+	<div class="content" clearfix>
 		<!-- solution box -->
 		<ul list="solutions row">
 			<li box="solution">
@@ -155,7 +170,7 @@
 		<!--****end:solution box****-->
 	</div>
 	<h5 titles="itemTitle">success box 1/3</h5>
-	<div class="content">
+	<div class="content" clearfix>
 		<ul list="success-story">
 			<li box="wrap-slider">
 				<a link="box" href="#">
