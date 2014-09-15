@@ -38,7 +38,9 @@ h1[titles="mainTitle"]{
 html{
 	font-family: "Agilita";
 }
-
+body{
+	position: relative;
+}
 
 [clearfix]:after {
     content: ".";
@@ -53,7 +55,9 @@ html{
     display: inline-block;
 }
 
-
+header{
+	margin: 0 auto;
+}
 
 /*------= Headings =-------*/
 
@@ -69,16 +73,11 @@ h2[heading="footer-list"]{
 h1[heading="section"]{
 	text-align: center;
 }
-[heading="section"],[heading="carousel"],[heading="box"]{
-color: hsla(0, 0%, 100%, 1);
-font: 2.5em/30px "Agilita";
-margin: 0 auto;
+[heading="section"],h2[heading="carousel"],[heading="box"]{
+	color: hsla(0, 0%, 100%, 1);
+	font: 2.5em/30px "Agilita";
+	margin: 0 auto;
 }
-h2[heading="carousel"] em{
-	font-style: normal;
-	font-weight: bold;
-}
-
 /*-----------------------*/
 /*------= Links =--------*/
 a:link,a:visited{

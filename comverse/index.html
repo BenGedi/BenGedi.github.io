@@ -4,106 +4,101 @@
 	<meta charset="UTF-8">
 	<title>Comverse</title>
 	<link rel="stylesheet" href="css/modules.css">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<div><img src="img/comverse-logo.png" alt="Comverse"></div>
-		<nav class="user-access">
-			<ul class="horiz-list">
-				<li>
-					<select name="lang" id="langChanger">
-						<option value="en" selected>EN</option>
-						<option value="he">HEB</option>
-					</select>
-				</li>
-				<li><a href="#">Customer login</a></li>
-			</ul>
-		</nav>
-		<nav class="main-nav">
-			<ul class="horiz-list">
-				<li><a href="#">YOUR NEEDS</a></li>
-				<li><a href="#">OUR PROTFOLIO</a></li>
-				<li><a href="#">NEWS & MEDIA</a></li>
-				<li><a href="#">ABOUT COMVERSE</a></li>
-			</ul>
-		</nav>
-		<form action="">
-			<fieldset class="nav-search">
-				<input type="search" class="search" name="search">
-				<button type="submit" value name="submitBtn"></button>
-			</fieldset>
-		</form>
+		<div container>
+			<div><img src="img/comverse-logo.png" alt="Comverse"></div>
+			<nav user-access-nav>
+				<ul list="navigation row">
+					<li>
+						<select name="lang" id="langChanger">
+							<option value="en">EN</option>
+							<option value="he">HEB</option>
+						</select>
+					</li>
+					<li><a link="navigation" href="#">Customer login</a></li>
+				</ul>
+			</nav>
+			<nav main-nav>
+				<ul list="navigation row">
+					<li><a link="navigation" href="#">YOUR NEEDS</a></li>
+					<li><a link="navigation" href="#">OUR PROTFOLIO</a></li>
+					<li><a link="navigation" href="#">NEWS & MEDIA</a></li>
+					<li><a link="navigation" href="#">ABOUT COMVERSE</a></li>
+				</ul>
+			</nav>
+			<form box="search" action="">
+				<input type="search"><button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
 	</header>
-	<div class="wrapper">
-		<section id="myCarousel" class="carousel">
-			<div class="container">
-				<ol class="carousel-indicators">
-		        	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		        	<li data-target="#myCarousel" data-slide-to="1" class=""></li>
-		        	<li data-target="#myCarousel" data-slide-to="2" class=""></li>
-		        	<li data-target="#myCarousel" data-slide-to="3" class=""></li>
-		      	</ol>
-		      	<ul class="color-boxs row">
-		      		<li class="color-box pink">
-		      				<p class="box-content">Comverse Is Value-Added Service Global Market Leader.</p>
-		      				<p class="box-footer">
-		      					<img src="img/link.png" alt="link">
-		      					<span>Read more</span>
-		      				</p>
-		      		</li>
-		      		<li class="color-box green">
-		      				<p class="box-content">Managed Services World Congress September 18-19 Berlin, Germany</p>
-		      				<p class="box-footer">
-		      					<img src="img/doc.png" alt="link">
-		      					<span>Read more</span>
-		      				</p>
-		      		</li>
-		      		<li class="color-box orange">
-		      				<p class="box-content">Comverse: Enabling a world of Conected Possibilities</p>
-		      				<p class="box-footer">
-		      					<img src="img/play.png" alt="link">
-		      					<span>Watch now</span>
-		      				</p></li>
-		      	</ul>
+	<div main-wrapper>
+		<section carousel>
+			<div container clearfix>
+				<ol list="carouselIndicators row">
+					<li active>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+				</ol>
+		      	<ul list="feature-boxs row">
+					<li feature-box="pink">
+						<a link="box" href="#">
+							<article>
+								<h3 heading="box">Comverse Is Value-Added Service Global Market Leader.</h3>
+								<footer>
+									<img src="img/box-link.png" alt="link">
+									<span>Read more</span>
+								</footer>
+							</article>
+						</a>
+					</li>
+					<li feature-box="green">
+						<a link="box" href="#">
+							<article>
+								<h3 heading="box">Comverse Is Value-Added Service Global Market Leader.</h3>
+								<footer>
+									<img src="img/box-link.png" alt="link">
+									<span>Read more</span>
+								</footer>
+							</article>
+						</a>
+					</li>
+					<li feature-box="green">
+						<a link="box" href="#">
+							<article>
+								<h3 heading="box">Comverse Is Value-Added Service Global Market Leader.</h3>
+								<footer>
+									<img src="img/box-link.png" alt="link">
+									<span>Read more</span>
+								</footer>
+							</article>
+						</a>
+					</li>
+				</ul>
+				<ul list="carousel-inner row">
+					<li item>
+						<h2 heading="carousel">CREATE A SUPERIOR CUSTOMER EXPERIENCE</h2>
+						<ul list="item-content">
+							<li>Personalized Plans and Offerings, Smart Customer Interactions</li>
+							<li>Comprehensive Self-Service and Account Control</li>
+							<li>Personalized Social Media Interactions and more</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+	<div class="content" clearfix>
+		<!-- event-box -->
+		<a event-box itemscope itemtype="http://schema.org/Event" href="#">
+			<div event-date itemprop="startDate" content="2015-08-29">
+				<p event-day>29</p>
+				<p event-month>AUG</p>
+			</div>
+			<p itemprop="name" event-info>Creating a Compeling Carrier Comeback Solution</p>
+		</a>
 	      	</div>
-			<ul class="carousel-inner">
-				<li class="item" image="">
-					<article class="carousel-caption">
-						<header>
-					 		<h2 heading="carousel"><em>Free</em> Your Market From It <em>Complexity</em></h2>
-						</header>
-						<p class="carousel-content">Comverse Policy Studio<br><b>1st</b> Ever Marketing-Oriented Policy Tool</p>
-						<a href="#" class="blue-btn"><span class="text">Learn more</span></a>
-					 </article>
-				</li>
-				<li class="item">
-					<article class="carousel-caption">
-						<header>
-					 		<h2 heading="carousel"><em>Free</em> Your Market From It <em>Complexity</em></h2>
-						</header>
-						<p class="carousel-content">Comverse Policy Studio<br><b>1st</b> Ever Marketing-Oriented Policy Tool</p>
-						<a href="#" class="blue-btn"><span class="text">Learn more</span></a>
-					 </article>
-				</li>
-				<li class="item">
-					<article class="carousel-caption">
-						<header>
-					 		<h2 heading="carousel"><em>Free</em> Your Market From It <em>Complexity</em></h2>
-						</header>
-						<p class="carousel-content">Comverse Policy Studio<br><b>1st</b> Ever Marketing-Oriented Policy Tool</p>
-						<a href="#" class="blue-btn"><span class="text">Learn more</span></a>
-					 </article>
-				</li>
-				<li class="item">
-					<article class="carousel-caption">
-						<header>
-					 		<h2 heading="carousel"><em>Free</em> Your Market From It <em>Complexity</em></h2>
-						</header>
-						<p class="carousel-content">Comverse Policy Studio<br><b>1st</b> Ever Marketing-Oriented Policy Tool</p>
-						<a href="#" class="blue-btn"><span class="text">Learn more</span></a>
-					 </article>
-				</li>
-			</ul>
 		</section>
 	</div>
 </body>
