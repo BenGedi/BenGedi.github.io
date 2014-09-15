@@ -31,6 +31,9 @@ h1[titles="mainTitle"]{
 	text-align: center;
 	font-style: oblique;
 }
+img[alt="Comverse"]{
+	float: left;
+}
 /*---------------------------------*/
 
 /*------= COMVERSE MODULES =---------*/
@@ -57,7 +60,19 @@ body{
 header{
 	height: 90px;
 }
-
+header [container]{
+	max-width: 940px;
+	height: inherit;
+	margin-right:auto;
+	margin-left:auto; 
+}
+form[box="search"]{
+	display: inline-block;
+	float: right;
+}
+section [carousel]{
+	background: url(../img/carousel/hp_ferriswheel_2500x639.jpg);
+}
 /*------= Headings =-------*/
 
 h1[heading="section"],h2[heading="footer-list"]{
@@ -148,6 +163,8 @@ ul[list]{
 nav[user-access-nav]{
 	width: 230px;
 	height: 20px;	
+	float:right;
+	display: inline-block;
 }
 [list~="row"] li{
 	float: left;
@@ -158,7 +175,9 @@ nav[main-nav]{
 	display: inline-block;
 }
 [list~="navigation"]{
-	position: relative;
+	display: inline-block;
+vertical-align: baseline;
+	
 }
 ul[list~="navigation"] li{
 	float: left;
@@ -230,6 +249,9 @@ ol[list~="carouselIndicators"] li[active]{
 	border-bottom-left-radius: 5px;
 	display: inline-block;
 	vertical-align: top;
+}
+[box~="search"] input[type="search"]:focus{
+	border: none;
 }
 [box~="search"] button[type="submit"]{
 	margin-left: 0;
