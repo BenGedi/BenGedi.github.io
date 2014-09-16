@@ -18,7 +18,6 @@ section[carousel] div[container]{
 	margin-right: auto;
 	position: relative;
 	top: 44.5%;
-	border: 1px solid black;
 }	
 div[carousel-caption]{
 	display: block;
@@ -95,6 +94,11 @@ form[box="search"]{
 }
 section [carousel]{
 	background: url(../img/carousel/hp_ferriswheel_2500x639.jpg);
+}
+section[solutions]{
+	height: 365px;
+	padding: 55px;
+	background: url("../img/weDoBG.png") repeat scroll 0 0, radial-gradient(ellipse at center, #59bedb 0%,#3399cc 100%);
 }
 /*------= Headings =-------*/
 
