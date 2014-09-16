@@ -16,6 +16,7 @@
 .content{
 	margin: 20px 0;
 	height: auto;
+	position: relative;
 }
 h1[titles="mainTitle"],h3[titles="moduleTitle"],h5[titles="itemTitle"]{
 	color: hsl(246, 60%, 55%);
@@ -195,11 +196,7 @@ ul[list~="navigation"] li{
 	float: left;
 	list-style: none;
 	font: 13px Arial;
-	border-left: 1px solid hsla(0, 0%, 82%, 1);
 	padding: 0 10px;
-}
-ul[list~="navigation"] li:first-child{
-	border-left:none;
 }
 
 li > select{
