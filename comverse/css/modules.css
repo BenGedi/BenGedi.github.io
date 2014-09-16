@@ -31,17 +31,17 @@ h1[titles="mainTitle"]{
 	text-align: center;
 	font-style: oblique;
 }
-img[alt="Comverse"]{
-	float: left;
-}
+/*img[alt="Comverse"]{
+	position: relative;
+	top: 16px;
+}*/
 /*---------------------------------*/
 
 /*------= COMVERSE MODULES =---------*/
-html{
-	font-family: "Segan-Light";
-}
 body{
+	font-family: "Segan-Light";
 	position: relative;
+	margin: 0;
 }
 
 [clearfix]:after {
@@ -59,16 +59,19 @@ body{
 
 header{
 	height: 90px;
+	border-bottom: 1px solid;
 }
 header [container]{
+	position: relative;
 	max-width: 940px;
 	height: inherit;
 	margin-right:auto;
-	margin-left:auto; 
+	margin-left:auto;
 }
 form[box="search"]{
-	display: inline-block;
-	float: right;
+	position: absolute;
+	left: 80.5%;
+	top: 60.5%;
 }
 section [carousel]{
 	background: url(../img/carousel/hp_ferriswheel_2500x639.jpg);
@@ -161,10 +164,14 @@ ul[list]{
 }
 
 nav[user-access-nav]{
-	width: 230px;
+	width: 171px;
 	height: 20px;	
 	float:right;
-	display: inline-block;
+	padding-top:1%;
+}
+nav[user-access-nav] ul{
+	height: inherit;
+	padding: 0;
 }
 [list~="row"] li{
 	float: left;
@@ -172,18 +179,21 @@ nav[user-access-nav]{
 
 }
 nav[main-nav]{
-	display: inline-block;
+height: 16px;
+display: inline-block;
+vertical-align: bottom;
+margin-left: 3%;
+margin-top: 7%;
 }
-[list~="navigation"]{
-	display: inline-block;
-vertical-align: baseline;
-	
+nav[main-nav] [list~="navigation"] {
+	width: inherit;
+	height: inherit;
+	padding: 0;
 }
+
 ul[list~="navigation"] li{
 	float: left;
-	width: inherit;
 	list-style: none;
-	display: inline;
 	font: 13px Arial;
 	border-left: 1px solid hsla(0, 0%, 82%, 1);
 	padding: 0 10px;
