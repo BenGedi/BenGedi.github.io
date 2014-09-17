@@ -4,6 +4,23 @@
   font-weight: normal;
   src: url("../fonts/Segan-Light.ttf") format("truetype");
 }
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot');
+    src: url('../fonts/fontawesome-webfont.eot') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff) format('woff'), url('../fonts/fontawesome-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-search:before {
+    content: "\f002"}
 /*-----= index css =-----*/
 section{
 	max-width:100%;
@@ -26,6 +43,31 @@ div[carousel-caption]{
 	display: block;
 	width:inherit;
 	height: 174px; /*need to switch to persent*/
+}
+ul[list~="carousel-inner"]{
+	max-width: 100%;
+	height: 549px;
+	position: absolute;
+	top:0;
+	left:0;
+	padding: 0;
+}
+ul[list~="carousel-inner"] li[item]{
+	padding-top:2%;
+	padding-left:20%;
+	max-width:100%;
+	height: inherit; 
+}
+ul[list~="carousel-inner"] li[item] ul[list="item-content"]{
+	padding-top:2%;
+	padding-left: 0;
+}
+ul[list~="carousel-inner"] li[item] ul[list="item-content"] li{
+	float: none;
+	list-style-type: circle;
+	color: white;
+	list-style-position:inside;
+	line-height: 1.5em;
 }
 body{
 	font-family: "Segan-Light";
@@ -62,9 +104,7 @@ form[box="search"]{
 	left: 80.5%;
 	top: 60.5%;
 }
-section [carousel]{
-	background: url(../img/carousel/hp_ferriswheel_2500x639.jpg);
-}
+
 section[solutions]{
 	height: 365px;
 	padding: 55px;
@@ -403,6 +443,13 @@ ul[list~="feature-boxs"] li:first-child{
 	-webkit-margin-start: 0px;
 	-webkit-margin-end: 0px;
 }
+[feature-box~="orange"]{
+	background-color: rgba(255, 102, 0, 0.9);
+}
+
+[feature-box~="orange"]:hover{
+	background: #ff5400;
+}
 [feature-box~="pink"]{
 	background-color: hsla(330, 69%, 51%, 0.9);
 }
@@ -424,7 +471,7 @@ ul[list~="feature-boxs"] li:first-child{
 [feature-box] footer {
 	height: 13%;
 	position: relative;
-	top:20%;
+	top:13%;
 }
 [feature-box] footer span{
 	font-weight: bold;
