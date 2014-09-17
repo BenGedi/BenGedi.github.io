@@ -5,6 +5,9 @@
   src: url("../fonts/Segan-Light.ttf") format("truetype");
 }
 /*-----= index css =-----*/
+section{
+	max-width:100%;
+}
 section[carousel]{
 	height: 549px;
 	background:grey;
@@ -87,6 +90,22 @@ section[solution-for] {
 	padding: 55px 0 0;
 	-webkit-box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 0.5) inset;
 	box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 0.5) inset;
+}
+ul[list~="solution-for"]{
+	max-width: 940px;
+	height: 51px;
+	padding-top:3%;
+	margin:0 auto !important;
+}
+ul[list~="solution-for"] li{
+	margin-right:13.9%;
+}
+ul[list~="solution-for"] li:last-child{
+	margin-right:0;
+}
+ul[list~="solution-for"] li a{
+	font: 2.3em/51px 'Segan-Light';
+	color:white;
 }
 /*-----= End: index css =-----*/
 
