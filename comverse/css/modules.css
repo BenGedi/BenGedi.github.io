@@ -24,39 +24,6 @@ div[carousel-caption]{
 	width:inherit;
 	height: 174px; /*need to switch to persent*/
 }
-/*ul[list~="carousel-inner"]*/
-/*-----= End: index css =-----*/
-
-/*-----= modules css page =-----*/
-.comverse-style-guide{
-	background-color: hsl(201, 18%, 76%);
-}
-.comverse-style-guide .content,h5[titles="itemTitle"]{
-	padding-left: 40px;	
-
-}
-.content{
-	margin: 20px 0;
-	height: auto;
-	position: relative;
-}
-h1[titles="mainTitle"],h3[titles="moduleTitle"],h5[titles="itemTitle"]{
-	color: hsl(246, 60%, 55%);
-	display: block;
-	clear: both;
-	margin: 20px 0;
-	font-weight: bold;
-	display: block; 
-	vertical-align: baseline;
-}
-
-h1[titles="mainTitle"]{
-	text-align: center;
-	font-style: oblique;
-}
-/*---------------------------------*/
-
-/*------= COMVERSE MODULES =---------*/
 body{
 	font-family: "Segan-Light";
 	position: relative;
@@ -114,6 +81,39 @@ section[solutions] a[link~="btnBlue"]{
 	background: linear-gradient(to bottom, rgba(66,126,147,0.5) 0%,rgba(0,74,104,0.5) 100%);
 	margin: 0 auto;
 }
+/*-----= End: index css =-----*/
+
+/*-----= modules css page =-----*/
+.comverse-style-guide{
+	background-color: hsl(201, 18%, 76%);
+}
+.comverse-style-guide .content,h5[titles="itemTitle"]{
+	padding-left: 40px;	
+
+}
+.content{
+	margin: 20px 0;
+	height: auto;
+	position: relative;
+}
+h1[titles="mainTitle"],h3[titles="moduleTitle"],h5[titles="itemTitle"]{
+	color: hsl(246, 60%, 55%);
+	display: block;
+	clear: both;
+	margin: 20px 0;
+	font-weight: bold;
+	display: block; 
+	vertical-align: baseline;
+}
+
+h1[titles="mainTitle"]{
+	text-align: center;
+	font-style: oblique;
+}
+/*---------------------------------*/
+
+/*------= COMVERSE MODULES =---------*/
+
 /*------= Headings =-------*/
 
 h1[heading="section"],h2[heading="footer-list"]{
@@ -128,9 +128,9 @@ h2[heading="footer-list"]{
 h1[heading="section"]{
 	text-align: center;
 }
-[heading="section"],h2[heading="carousel"],[heading="box"]{
+h1[heading="section"],h2[heading="carousel"],[heading="box"]{
 	color: hsla(0, 0%, 100%, 1);
-	font: 2.5em/30px "Segan-Light";
+	font: 2.6em/35px "Segan-Light";
 	margin: 0 auto;
 }
 /*-----------------------*/
