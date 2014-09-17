@@ -81,6 +81,13 @@ section[solutions] a[link~="btnBlue"]{
 	background: linear-gradient(to bottom, rgba(66,126,147,0.5) 0%,rgba(0,74,104,0.5) 100%);
 	margin: 0 auto;
 }
+section[solution-for] {
+	height: 173px;
+	background-color: #646263;
+	padding: 55px 0 0;
+	-webkit-box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 0.5) inset;
+	box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 0.5) inset;
+}
 /*-----= End: index css =-----*/
 
 /*-----= modules css page =-----*/
