@@ -100,6 +100,20 @@ section[solutions]{
 	padding: 55px;
 	background: url("../img/weDoBG.png") repeat scroll 0 0, radial-gradient(ellipse at center, #59bedb 0%,#3399cc 100%);
 }
+ul[list~="solutions"]{
+	width: 965px;
+	height: 107px;
+	padding: 7% 0 7% 11%;
+}
+section[solutions] a[link~="btnBlue"]{
+	background: -moz-linear-gradient(top, rgba(66,126,147,0.5) 0%, rgba(0,74,104,0.5) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(66,126,147,0.5)), color-stop(100%,rgba(0,74,104,0.5)));
+	background: -webkit-linear-gradient(top, rgba(66,126,147,0.5) 0%,rgba(0,74,104,0.5) 100%);
+	background: -o-linear-gradient(top, rgba(66,126,147,0.5) 0%,rgba(0,74,104,0.5) 100%);
+	background: -ms-linear-gradient(top, rgba(66,126,147,0.5) 0%,rgba(0,74,104,0.5) 100%);
+	background: linear-gradient(to bottom, rgba(66,126,147,0.5) 0%,rgba(0,74,104,0.5) 100%);
+	margin: 0 auto;
+}
 /*------= Headings =-------*/
 
 h1[heading="section"],h2[heading="footer-list"]{
@@ -449,6 +463,9 @@ ul[list~="feature-boxs"] li:first-child{
 li[box~="solution"]+a[link="box"]{
 	width: 160px;
 	height: inherit;
+}
+[box~="solution"] img{
+	padding-bottom: 10px;
 }
 [box~="solution"] img[back]{
 	display: none;
