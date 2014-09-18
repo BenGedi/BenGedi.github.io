@@ -467,13 +467,13 @@ ul[list~="feature-boxs"] li:first-child{
 	background-color: hsla(330, 69%, 51%, 0.9);
 }
 [feature-box~="pink"]:hover{
-	background-color: hsla(330, 100%, 60%, 1);
+	background-color: hsla(330, 69%, 51%, 1);
 }
 [feature-box~="green"]{
 	background-color: hsla(100, 51%, 43%,0.9);
 }
 [feature-box~="green"]:hover{
-	background-color: hsla(99, 78%, 54%,1);
+	background-color: hsla(100, 51%, 43%,1);
 }
 /* need to add all color boxes + hover */
 [feature-box] a article{
