@@ -653,6 +653,15 @@ li[box~="solution"]+a[link="box"]{
 	height: 210px;
 	display: block;
 }
+[list~="success-story"] [box~="quote"] [back-success-story]{
+	width: inherit;
+}
+[box~="quote"] [back-success-story]+img{
+	float: left;
+}
+[box~="quote"] [back-success-story] blockquote{
+	display: inline;
+}
 [list~="success-story"] li{
 	display: block;
 	float: left;
@@ -661,9 +670,6 @@ li[box~="solution"]+a[link="box"]{
 	margin: 5px;
 	overflow: hidden;
 	background-color: white;
-	position: relative !important;
-	left: auto !important;
-	top: auto !important;
 }
 
 [box~="wrap-slider"] [front-success-story]{
@@ -759,7 +765,5 @@ blockquote{
 	overflow: hidden;
 	background: #3AA6DB;
 }
-/*[box="wrap-slider"]:hover [back-success-story]{
-  display: inline-block;
-}*/
+
 
