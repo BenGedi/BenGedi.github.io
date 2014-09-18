@@ -656,6 +656,8 @@ li[box~="solution"]+a[link="box"]{
 [list~="quote"] [box~="wrap-slider"] [back-success-story]{
 	box-sizing: border-box;
 	width: inherit;
+	height: inherit;
+	margin-bottom: 0;
 }
 [list~="quote"] [box~="wrap-slider"] [back-success-story]+img{
 	float: left;
