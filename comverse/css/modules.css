@@ -150,6 +150,23 @@ section[solutions] i.fa-play{
 [item="2"]{
 	background: url("../img/carousel/hp_ferriswheel_2500x639.jpg") no-repeat 50% 0 fixed #1e1c1b;
 }
+section[success-stories]{
+	height: 512px;
+	background-color: #ECECEC;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 0.5) inset;
+	box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 0.5) inset;
+	padding: 68px 0 0;
+}
+section[success-stories] h1{
+	color: #565656;
+	padding-bottom:56px;
+}
+section[success-stories] div[stories]{
+	width: 940px;
+	height: 323px;
+	margin: 0 auto;
+}
 /*-----= End: index css =-----*/
 
 /*-----= modules css page =-----*/
@@ -629,6 +646,7 @@ li[box~="solution"]+a[link="box"]{
 	width: 341px;
 	height: 210px;
 	display: block;
+	overflow: hidden;
 }
 [list~="success-story"] [box~="quote"]{
 	width: 224px;
@@ -649,14 +667,17 @@ li[box~="solution"]+a[link="box"]{
 }
 
 [box~="wrap-slider"] [front-success-story]{
-	position: absolute;
-	top: 0;
-	left: 0;
+	position:absolute;
+  z-index:9;
 	border: 0;
 	height: 170px;
 	background-color: white;
 	width: 302px;
 	padding: 20px;
+  -webkit-transition: transform 0.8s ease-in-out;
+  -moz-transition: transform 0.8s ease-in-out;
+  -o-transition: transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 [list~="success-story"] a [up]{
 	height: 130px;
@@ -722,17 +743,23 @@ blockquote{
 [box~="wrap-slider"] [front-success-story="quote"]{
 	width:184px;
 }
-
+[box~="wrap-slider"]:hover div[front-success-story]{
+  transform: translateY(-210px);
+  cursor: pointer;
+}
 [back-success-story]{
-	display: none;
+  position:relative;
+  z-index:1;
+  display:inline-block;
 	width: 301px;
 	height: 170px;
 	padding: 20px;
+  
 	margin-bottom: 20px;
 	overflow: hidden;
 	background: #3AA6DB;
 }
-[box="wrap-slider"]:hover [back-success-story]{
-	display: inline-block;
-}
+/*[box="wrap-slider"]:hover [back-success-story]{
+  display: inline-block;
+}*/
 
