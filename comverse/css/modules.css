@@ -485,6 +485,7 @@ ul[list~="events"]{
 }
 ul[list~="events"] li{
 	margin-left:20px;
+	width: 300px;
 }
 ul[list~="events"] li:first-child{
 	margin-left:0;
@@ -552,16 +553,18 @@ section[events] h1 {
 }
 a[link="read-more"]{
 	color:white;
-	width: 300px;
 }
-a[link="read-more"]:hover{
+p[more-info]{
+	margin: 0;
+}
+p[more-info]:hover a[link="read-more"]{
 	color:black;
 }
 a[link="read-more"] img{
 	vertical-align:-22%;
 	margin-right: 5px;
 }
-a[link="read-more"]:hover img{
+p[more-info]:hover a[link="read-more"] img{
 	-webkit-filter: invert(100%);
   	filter: invert(100%);
 }
