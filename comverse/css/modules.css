@@ -648,23 +648,30 @@ li[box~="solution"]+a[link="box"]{
 	display: block;
 	overflow: hidden;
 }
-[list~="success-story"] [box~="quote"]{
+[list~="quote"] [box~="wrap-slider"]{
 	width: 224px;
 	height: 210px;
 	display: block;
 }
-[list~="success-story"] [box~="quote"] [back-success-story]{
+[list~="quote"] [box~="wrap-slider"] [back-success-story]{
+	box-sizing: border-box;
 	width: inherit;
 }
-[box~="quote"] [back-success-story]+img{
+[list~="quote"] [box~="wrap-slider"] [back-success-story]+img{
 	float: left;
 }
-[box~="quote"] [back-success-story] blockquote{
+[box~="wrap-slider"] [back-success-story] blockquote{
 	display: inline;
+}
+[box~="wrap-slider"] a[link~="box"]{
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
 [list~="success-story"] li{
 	display: block;
 	float: left;
+	position: relative;
 	width: 107px;
 	height: 94px;
 	margin: 5px;
@@ -714,7 +721,7 @@ blockquote{
 	font-size: 120%;
 	width: 85%;
 }
-[front-success-story="quote"] [up] blockquote{
+[list~="quote"] [front-success-story] [up] blockquote{
 	float: none;
 }
 [back-success-story] img:first-child{
@@ -746,7 +753,7 @@ blockquote{
 	float: right;
 }
 
-[box~="wrap-slider"] [front-success-story="quote"]{
+[list~="quote"] [box~="wrap-slider"] [front-success-story]{
 	width:184px;
 }
 [box~="wrap-slider"]:hover div[front-success-story]{
