@@ -477,6 +477,31 @@ ol[list~="carouselIndicators"] li{
 ol[list~="carouselIndicators"] li[active]{
 	background: #2e95ca;
 }
+div[to-top]{
+	position: absolute;
+	z-index: 10;
+	height: 31px;
+	background: #2D2D2D;
+	top:-31px;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px; 
+	border-bottom: 1px solid grey;
+}
+div[to-top] a{
+	width: 108px;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	color: white;
+	font-size:200%;
+	height: 31px;
+	width: 64px;
+	z-index: 9000;
+}
+div[to-top] a:active{
+
+}
 footer[last]{
 	background: #2D2D2D repeat scroll 0 0;
 }
